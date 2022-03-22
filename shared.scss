@@ -1,0 +1,230 @@
+$mainPink:#AB60BB;
+$mainBlue:#4A43CD;
+$bgBlue:#f3f3fd;
+$white:#fdfdfd;
+$black:#444;
+ .app{
+     background-color: red;
+ }
+.customButtom{
+    border-radius:15px;
+    padding: 12px 24px 12px 24px;
+    background-image: linear-gradient(to right, $mainBlue, $mainPink);
+    color:$white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+.customButtom:hover{
+    box-shadow: none;
+    background:$white;
+    transition: 0.7s;
+    color:$mainPink;
+ }
+ .card{
+     position: relative;
+    box-shadow: 0 1px 2px rgba(0,0,0,4);
+    background: $white;
+    max-width: fit-content;
+    margin: 16px;
+    padding: 4px;
+    border-radius: 12px;
+ }
+//  .cardContent{
+
+//  }
+ .cardContentPadding{
+    padding: 48px;
+    padding-right: 76px;
+    padding-left: 76x;
+ }
+ .flexContainer{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+
+ .centerText{
+     text-align: center;
+     
+ }
+ .no-padding {
+    padding: 0px !important;
+  }
+  .no-padding-bottom {
+    padding-bottom: 0em !important;
+  }
+  .no-padding-left {
+    padding-left: 0em !important;
+  }
+  .no-padding-right {
+    padding-right: 0em !important;
+  }
+  .no-padding-top {
+    padding-top: 0em !important;
+  }
+  .mini-padding {
+    padding: .25em !important;
+  }
+  .mini-padding-bottom {
+    padding-bottom: .25em !important;
+  }
+  .mini-padding-left {
+    padding-left: .25em !important;
+  }
+  .mini-padding-right {
+    padding-right: .25em !important;
+  }
+  .mini-padding-top {
+    padding-top: .25em !important;
+  }
+  .small-padding {
+    padding: .75em !important;
+  }
+  .small-padding-bottom {
+    padding-bottom: .75em !important;
+  }
+  .small-padding-left {
+    padding-left: .75em !important;
+  }
+  .small-padding-right {
+    padding-right: .75em !important;
+  }
+  .small-padding-top {
+    padding-top: .75em !important;
+  }
+  .medium-padding {
+    padding: 1.4em !important;
+  }
+  .medium-padding-bottom {
+    padding-bottom: 1.4em !important;
+  }
+  .medium-padding-left {
+    padding-left: 1.4em !important;
+  }
+  .medium-padding-right {
+    padding-right: 1.4em !important;
+  }
+  .medium-padding-top {
+    padding-top: 1.4em !important;
+  }
+  .big-padding {
+    padding: 2.5em !important;
+  }
+  .big-padding-bottom {
+    padding-bottom: 2.5em !important;
+  }
+  .big-padding-left {
+    padding-left: 2.5em !important;
+  }
+  .big-padding-right {
+    padding-right: 2.5em !important;
+  }
+  .big-padding-top {
+    padding-top: 2.5em !important;
+  }
+  .no-margin {
+    margin: 0px !important;
+  }
+  .no-margin-bottom {
+    margin-bottom: 0em !important;
+  }
+  .no-margin-left {
+    margin-left: 0em !important;
+  }
+  .no-margin-right {
+    margin-right: 0em !important;
+  }
+  .no-margin-top {
+    margin-top: 0em !important;
+  }
+  .mini-margin {
+    margin: .25em !important;
+  }
+  .mini-margin-bottom {
+    margin-bottom: .25em !important;
+  }
+  .mini-margin-left {
+    margin-left: .25em !important;
+  }
+  .mini-margin-right {
+    margin-right: .25em !important;
+  }
+  .mini-margin-top {
+    margin-top: .25em !important;
+  }
+  .small-margin {
+    margin: .75em !important;
+  }
+  .small-margin-bottom {
+    margin-bottom: .75em !important;
+  }
+  .small-margin-left {
+    margin-left: .75em !important;
+  }
+  .small-margin-right {
+    margin-right: .75em !important;
+  }
+  .small-margin-top {
+    margin-top: .75em !important;
+  }
+  .medium-margin {
+    margin: 1.4em !important;
+  }
+  .medium-margin-bottom {
+    margin-bottom: 1.4em !important;
+  }
+  .medium-margin-left {
+    margin-left: 1.4em !important;
+  }
+  .medium-margin-right {
+    margin-right: 1.4em !important;
+  }
+  .medium-margin-top {
+    margin-top: 1.4em !important;
+  }
+  .big-margin {
+    margin: 2.5em !important;
+  }
+  .big-margin-bottom {
+    margin-bottom: 2.5em !important;
+  }
+  .big-margin-left {
+    margin-left: 2.5em !important;
+  }
+  .big-margin-right {
+    margin-right: 2.5em !important;
+  }
+  .big-margin-top {
+    margin-top: 2.5em !important;
+  }
+  /* ############## SIZE ############## */
+  .full-width {
+    width: 100% !important
+  }
+  .full-height {
+    height: 100% !important
+  }
+
+  .textColor-ligth-blue{
+    color: #f3f3fd;
+  }
+  
+  .text-color-marine-blue{
+    color: #383A59!important;
+  }
+.underlined{
+    text-decoration: underline;
+}
+.italized{
+    font-style: italic;
+}
+.capitalized{
+    text-transform: capitalize;
+}
+.text-aligned-right{
+    text-align: right;
+}
+.text-aligned-left{
+    text-align: left;
+}
